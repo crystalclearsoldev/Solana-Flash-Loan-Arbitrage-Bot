@@ -64,6 +64,7 @@ graph TD
 - WebSocket connections for instant updates
 - Price impact calculation
 - Liquidity depth analysis
+  ![image](https://github.com/user-attachments/assets/254ecb51-f0b0-4549-b232-3bdbeee380a2)
 
 ### 2. Strategy Types
 
