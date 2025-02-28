@@ -782,6 +782,7 @@ The Whirlpool swap structure is designed to support Orca's concentrated liquidit
 | **Volume Bots**         | Ethereum Volume Bot (Single Wallet)                  | EVM-based volume bot with single wallet      | [Repo](https://github.com/benjaminTan10/Ether-Volume-Bot-v1)                  |
 |                         | Ethereum Volume Bot (Multiple Wallets)              | EVM-based bot using multiple wallets         | [Repo](https://github.com/benjaminTan10/Ether-Volume-Bot-v2)                  |
 |                         | Base Volume Bot                                      | EVM volume bot for Base ecosystem            | [Repo](https://github.com/benjaminTan10/base-volume-bot)                        |
+|                         | pumpfunCopyTrading Bot                              | Pump.fun Copy Trading bot               | [Repo](https://github.com/benjaminTan10/pumpfun-copy-trading-private)                  |
 |                         | Raydium Volume Bot v1                                | Solana-based AMMDEX volume bot               | [Repo](https://github.com/benjaminTan10/RaydiumVolumeBot-v1)                  |
 |                         | Raydium Volume Bot v2                                | Jupiter + Raydium SDK for market making      | [Repo](https://github.com/benjaminTan10/RaydiumVolumeBot-v2)                  |
 |                         | Raydium Volume Bot v3                                | Jito bundle-based fast bot                   | [Repo](https://github.com/benjaminTan10/RaydiumVolumeBot-v3)                  |
