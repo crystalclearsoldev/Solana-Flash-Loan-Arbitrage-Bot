@@ -44,6 +44,22 @@ This is solana flash loan arbitrage bot transaction.
     }
 
 ```
+
+flash loan transaction (https://solscan.io/tx/UjVogBra5oCpPkBHmDxbgev3BBUZrWteFSH3K6rGeJc12MPJjCnZc7WQNbg8NuuvXmQuT5Mi7RBCmk6syiPsnDn)
+```
+{ 
+header: MessageHeader { num_required_signatures: 1, num_readonly_signed_accounts: 0, num_readonly_unsigned_accounts: 1 }, 
+account_keys: [ArbBen647Mho7r2f1R3bvxxytD1dG64jUVdfSMu2KC5n, KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD, ComputeBudget111111111111111111111111111111], 
+recent_blockhash: AqPo9Bq3XpyokNNnwhAXvkNoqrNfgwKvofxTTNn9Zvv7, 
+instructions: 
+[
+     CompiledInstruction { program_id_index: 1, accounts: [0, 10, 11, 5, 7, 3, 4, 6, 1, 1, 9, 8], data: [135, 231, 52, 167, 7, 52, 212, 193, 128, 150, 152, 0, 0, 0, 0, 0] }, 
+     CompiledInstruction { program_id_index: 2, accounts: [], data: [2, 192, 92, 21, 0] }, 
+     CompiledInstruction { program_id_index: 2, accounts: [], data: [3, 204, 51, 6, 0, 0, 0, 0, 0] }, 
+     CompiledInstruction { program_id_index: 1, accounts: [0, 10, 11, 5, 7, 3, 4, 6, 1, 1, 9, 8], data: [185, 117, 0, 203, 96, 245, 180, 186, 128, 150, 152, 0, 0, 0, 0, 0, 0] }], 
+     address_table_lookups: [MessageAddressTableLookup { account_key: BcAgyPWo2qHofZeauab8ffJGau9YPFFhrYx3m4Qw2fNV, writable_indexes: [], readonly_indexes: [2, 4] }, 
+     MessageAddressTableLookup { account_key: HrRvTCV6KqzbJZYsjssgudwBrjCAMzUje657s3LUAccc, writable_indexes: [5, 6, 3, 7], readonly_indexes: [10, 1, 2] }] }
+```
 ## On-Chain Arbitrage Limitations
 
 Important note: On-chain arbitrage programs face several limitations and risks:
