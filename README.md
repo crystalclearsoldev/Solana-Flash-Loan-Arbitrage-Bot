@@ -1,7 +1,47 @@
 ## ✨[📞💻](https://t.me/blockchainDeveloper_Ben)  Don't take this document lightly.
 
 # Solana Arbitrage Bot Architecture
+```
+ Message: Message { 
+ header: MessageHeader { 
+    num_required_signatures: 1, 
+    num_readonly_signed_accounts: 0, 
+    num_readonly_unsigned_accounts: 8 
+    }, 
+    account_keys: 
+    [
+    ArbBen647Mho7r2f1R3bvxxytD1dG64jUVdfSMu2KC5n, KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD, XyKGYgfXDAMx8ejD3jAWvQ9o5r9QjGkvzwVU8DPuRXh, 5AFoToMbwKZcRmmBYpZwGFSVT8ihgUXLEwjrr5e9BbAc, 6Gck6T5ZUQJBjQeXuhHfLBPJwboJJUCV7y7Nu21vg58n, 7x4VcEX8aLd3kFsNWULTp1qFgVtDwyWSxpTGQkoMM6XX, CHm1EcpoGJXsJ3UgfD99jHdEJWwWeVSuzqDQtrR9YqEj, FnPDHaYMTJLSfdt8QgjSydPk7Y53QEFPuSvW1wsSZMXK, H1qQ6Hent1C5wa4Hc3GK2V1sgg4grvDBbmKd5H8dsTmo, HpeZijgUiz1QuVGShrHC7mJiiBuW9jMXgLQBSk6ndMfL, 
+    11111111111111111111111111111111, ComputeBudget111111111111111111111111111111, 
+    JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4, TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA, 2MFoS3MPtvyQ4Wh4M9pdfPjz6UhVoNbFbGJAskCPCj3h, 6U91aKa8pmMxkJwBCfPTmUEfZi6dHe7DcFq2ALvB2tbB, ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL, D8cy77BBepLMngZx6ZukaTff5hCt1HrWyKk3Hnd9oitf
+    ], 
+    recent_blockhash: 9FJE2LXAq9ism5CvDogvNPYqgEyUDPTkijyeogp5w9K7,
+    instructions: [
+    CompiledInstruction { 
+    program_id_index: 1, 
+    accounts: [0, 38, 39, 31, 34, 29, 30, 32, 1, 1, 37, 13], 
+    data: [135, 231, 52, 167, 7, 52, 212, 193, 128, 150, 152, 0, 0, 0, 0, 0] }, 
+    CompiledInstruction 
+    { 
+    program_id_index: 11, 
+    accounts: [], 
+    data: [2, 192, 92, 21, 0] }, 
+    CompiledInstruction { 
+    program_id_index: 11, 
+    accounts: [], 
+    data: [3, 187, 59, 11, 0, 0, 0, 0, 0] 
+    }, 
+    CompiledInstruction { program_id_index: 10, accounts: [0, 30], data: [2, 0, 0, 0, 128, 150, 152, 0, 0, 0, 0, 0] }, 
+    CompiledInstruction {program_id_index: 13, accounts: [30], data: [17] }, 
+    CompiledInstruction { program_id_index: 16, accounts: [0, 7, 0, 36, 10, 13], data: [1] }, 
+    CompiledInstruction { program_id_index: 12, accounts: [13, 15, 0, 30, 5, 9, 7, 34, 36, 12, 12, 17, 12, 35, 13, 13, 33, 15, 22, 34, 36, 5, 21, 9, 23, 18, 19, 20, 24], data: [193, 32, 155, 51, 65, 214, 156, 129, 3, 1, 0, 0, 0, 47, 1, 0, 100, 0, 1, 128, 150, 152, 0, 0, 0, 0, 0, 149, 110, 206, 0, 0, 0, 0, 0, 50, 0, 0] }, 
+    CompiledInstruction { program_id_index: 12, accounts: [13, 14, 0, 7, 3, 8, 30, 36, 34, 12, 12, 17, 12, 35, 13, 13, 33, 14, 28, 34, 36, 8, 26, 3, 25, 2, 4, 6, 27], data: [193, 32, 155, 51, 65, 214, 156, 129, 1, 1, 0, 0, 0, 47, 0, 0, 100, 0, 1, 149, 110, 206, 0, 0, 0, 0, 0, 247, 96, 152, 0, 0, 0, 0, 0, 50, 0, 0] }, 
+    CompiledInstruction { program_id_index: 13, accounts: [30, 0, 0], data: [9] }, 
+    CompiledInstruction { program_id_index: 1, accounts: [0, 38, 39, 31, 34, 29, 30, 32, 1, 1, 37, 13], data: [185, 117, 0, 203, 96, 245, 180, 186, 128, 150, 152, 0, 0, 0, 0, 0, 0] 
+    }], 
+    address_table_lookups: [MessageAddressTableLookup { account_key: B1bQUTgTHTgjTkv3w6WpS7WuQSYeRrYjfYwmzt81LEAs, writable_indexes: [33, 37, 35, 73, 34, 36, 76], readonly_indexes: [2, 0, 9, 75] }, MessageAddressTableLookup { account_key: 2LWm7Z9ivLGipSnMeNsCJ3kFYwKu5J8JnWkgZeEgRVq5, writable_indexes: [225, 227, 216, 218], readonly_indexes: [] }, MessageAddressTableLookup { account_key: HrRvTCV6KqzbJZYsjssgudwBrjCAMzUje657s3LUAccc, writable_indexes: [5, 6, 3, 7], readonly_indexes: [10, 1, 2] }] 
+    }
 
+```
 ## On-Chain Arbitrage Limitations
 
 Important note: On-chain arbitrage programs face several limitations and risks:
