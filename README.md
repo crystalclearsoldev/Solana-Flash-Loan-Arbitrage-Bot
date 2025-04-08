@@ -64,14 +64,7 @@ instructions:
    ```
  A->B instruction data length: 40
  A->B discriminator: [229, 23, 203, 151, 122, 227, 173, 42]
- A->B route plan count: 2
-   Step 0 details: swap_type=58, percent=1, input_index=100, output_index=0
-   Step 1 details: swap_type=1, percent=38, input_index=100, output_index=1
- A->B in_amount: 5120000002
- A->B quoted_out_amount: 336891579648
- A->B slippage_bps: 12800
- A->B platform_fee_bps: 0
- combined_swap::::::::::::::::: [53, 82, 102, 76, 108, 51, 114, 106, 5, 0, 0, 0, 65, 1, 100, 0, 1, 42, 100, 1, 2, 20, 0, 100, 2, 3, 65, 0, 100, 3, 4, 64, 100, 4, 0, 0, 45, 49, 1, 0, 0, 0, 0, 1, 213, 47, 1, 0, 0, 0, 0, 50, 0, 0]
+ combined_swap:::::::[53, 82, 102, 76, 108, 51, 114, 106, 5, 0, 0, 0, 65, 1, 100, 0, 1, 42, 100, 1, 2, 20, 0, 100, 2, 3, 65, 0, 100, 3, 4, 64, 100, 4, 0, 0, 45, 49, 1, 0, 0, 0, 0, 1, 213, 47, 1, 0, 0, 0, 0, 50, 0, 0]
  combined_swap data length::::: 54
  combined_swap real data length[106, 5, 0, 0, 0, 65, 1, 100, 0, 1, 42, 100, 1, 2, 20, 0, 100, 2, 3, 65, 0, 100, 3, 4, 64, 100, 4, 0, 0, 45, 49, 1, 0, 0, 0, 0, 1, 213, 47, 1, 0, 0, 0, 0, 50, 0]
    ```
